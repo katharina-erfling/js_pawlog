@@ -2,6 +2,42 @@
 
 Alle wichtigen Änderungen an PawLog werden in dieser Datei dokumentiert.
 
+## [0.1.6]
+
+### Verbessert
+- Geöffnete Dialoge können jetzt mit der Escape-Taste geschlossen werden
+- Tastaturbedienung der Dialoge verbessert
+- Escape reagiert nur, wenn tatsächlich ein Dialog geöffnet ist
+
+
+## [0.1.5]
+
+### Verbessert
+- Einheitlicher fester Fallback-Avatar für Hunde ohne Profilfoto
+- Auswahl eines eigenen Fallback-Emojis aus dem Hundesteckbrief entfernt
+- Profil- und Bearbeitungsdialoge schließen sich nur noch über eine bewusste Aktion
+- Klickverhalten innerhalb von Hundekarten und Profilaktionen robuster gemacht
+
+### Behoben
+- Steckbrief bzw. Bearbeitungsdialog konnte sich durch einen unbeabsichtigten Klick auf den Hintergrund schließen
+- Verschachtelte Klickaktionen konnten teilweise mehrere Aktionen gleichzeitig auslösen
+
+## [0.1.4]
+
+### Hinzugefügt
+- Profilfoto kann im Fotoeditor direkt mit Maus oder Finger verschoben werden
+- Live-Anzeige der horizontalen und vertikalen Bildposition in Prozent
+- Visueller Hinweis zum Verschieben des Bildausschnitts
+
+### Verbessert
+- Regler für den horizontalen und vertikalen Fotoausschnitt aktualisieren die Vorschau jetzt direkt
+- Fotoausschnitt wird während der Bearbeitung ohne Neuladen der Vorschau angepasst
+- Gespeicherte Bildposition wird zuverlässig auf alle Profilbilddarstellungen übernommen
+- Bedienung des Fotoausschnitts auf Touch-Geräten verbessert
+
+### Behoben
+- Fotoausschnitt ließ sich trotz vorhandener Regler nicht zuverlässig sichtbar verschieben
+
 ## [0.1.3]
 
 ### Hinzugefügt
