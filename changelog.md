@@ -2,6 +2,44 @@
 
 Alle wichtigen Änderungen an PawLog werden in dieser Datei dokumentiert.
 
+
+## [0.1.2]
+
+### Hinzugefügt
+- Neues Ernährungstagebuch mit dem kurzen Navigationsnamen „Futterlog“
+- Tagebuchartige Tagesansicht mit großem Datumsbereich
+- Navigation zum vorherigen und nächsten Tag
+- Schnellnavigation zurück zum heutigen Tag
+- Manuelle Auswahl eines beliebigen Tagebuchdatums
+- Tageszusammenfassung für automatische und manuelle Fütterungseinträge
+- Chronologische Timeline für die Fütterungen eines Tages
+- Eigene Tagesnotiz pro Hund und Datum
+- Richtige Hundesteckbriefe
+- Große Profilbilddarstellung im Hundesteckbrief
+- Direkt sichtbare Aktion zum Hinzufügen oder Ändern des Profilfotos
+- Geschlecht im Hundesteckbrief
+- Fellfarbe im Hundesteckbrief
+- Chipnummer im Hundesteckbrief
+- Persönliche Notizen im Hundesteckbrief
+- Übersicht von aktuellem Gewicht, Zielgewicht und Grundfütterung im Steckbrief
+- Direkter Zugriff von den Hundekarten auf den jeweiligen Steckbrief
+
+### Verbessert
+- Profilbilder werden konsequent an allen passenden Stellen der Oberfläche verwendet
+- Hundeübersicht stärker als Einstieg in die einzelnen Hundeakten aufgebaut
+- Futtertagebuch deutlich übersichtlicher und persönlicher gestaltet
+- Automatische Grundfütterung und manuelle Einträge im Futterlog optisch unterscheidbar
+- Ein neuer Fütterungseintrag aus dem Futterlog übernimmt automatisch das aktuell angezeigte Tagebuchdatum
+- Hundeprofile um zusätzliche Steckbriefdaten erweitert
+- Bestehende Daten werden beim Laden automatisch an die erweiterte Datenstruktur angepasst
+
+### Behoben
+- Falsche Zuordnung von Gewichtsmessungen zu einem anderen Hund
+- Hundewahl in Gewichtseinträgen verwendet jetzt zuverlässig den im Eingabefenster ausgewählten Hund
+- Hundewahl in Fütterungseinträgen verwendet jetzt zuverlässig den im Eingabefenster ausgewählten Hund
+- Hundewahl in Futterplänen verwendet jetzt zuverlässig den im Eingabefenster ausgewählten Hund
+- Alter Demo-Gewichtseintrag wird aus bestehenden PawLog-Daten entfernt
+
 ## [0.1.1]
 
 ### Hinzugefügt
