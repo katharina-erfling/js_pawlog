@@ -2,6 +2,21 @@
 
 Alle wichtigen Änderungen an PawLog werden in dieser Datei dokumentiert.
 
+## [0.1.3]
+
+### Hinzugefügt
+- Ausgangsgewicht pro Hund
+- Startdatum für die Gewichtsverfolgung
+- Ausgangsgewicht und Startdatum im Hundesteckbrief
+- Neue Gewichtsübersicht mit Ausgangsgewicht, aktuellem Gewicht und Zielgewicht
+- Anzeige der Gewichtsveränderung seit Beginn der Aufzeichnung
+- Ausgangsgewicht wird im Gewichtsdiagramm als Startpunkt berücksichtigt
+
+### Verbessert
+- Gewichtsverfolgung unterscheidet jetzt eindeutig zwischen Ausgangsgewicht, aktuellem Gewicht und Zielgewicht
+- Gewichtsveränderung wird nicht mehr nur anhand der ersten vorhandenen Messung berechnet, sondern anhand des festgelegten Ausgangsgewichts
+- Bestehende Hundeprofile werden automatisch um die neuen Gewichtsfelder ergänzt
+
 
 ## [0.1.2]
 
