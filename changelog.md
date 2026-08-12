@@ -3,6 +3,53 @@
 Alle wichtigen Änderungen an PawLog werden in dieser Datei dokumentiert.
 
 
+## [0.4.0]
+
+### Hinzugefügt
+- Neues Trainingsbuch
+- Trainingseinträge pro Hund
+- Erfassung von Datum und Uhrzeit einer Trainingseinheit
+- Erfassung der Trainingsdauer
+- Freie Angabe von Trainingsart oder Hundesport
+- Schwerpunkt einer Trainingseinheit
+- Dokumentation konkreter Übungen und Trainingsinhalte
+- Dokumentation von Verlauf und Ergebnis
+- Bewertung einer Trainingseinheit
+- Freie Trainingsnotizen
+- Monatsübersicht mit Anzahl der Trainingseinheiten
+- Monatsübersicht mit gesamter Trainingszeit
+- Anzeige der zuletzt dokumentierten Trainingseinheit
+- Filterung des Trainingsbuchs nach Trainingsart
+- Bearbeiten bestehender Trainingseinträge
+- Löschen bestehender Trainingseinträge
+- Neues Gassibuch
+- Spaziergänge können für einen oder mehrere Hunde gleichzeitig eingetragen werden
+- Erfassung von Datum und Startzeit
+- Erfassung der Dauer eines Spaziergangs
+- Optionale Erfassung der zurückgelegten Strecke
+- Unterscheidung verschiedener Spaziergangsarten
+- Angabe von Leine, Freilauf, Schleppleine oder gemischter Nutzung
+- Angabe von Ort und Route
+- Freie Notizen für Begegnungen, Verhalten und Besonderheiten
+- Monatsübersicht mit Anzahl der Spaziergänge
+- Monatsübersicht mit gesamter Gassizeit
+- Monatsübersicht mit zurückgelegter Strecke
+- Anzeige des letzten Spaziergangs
+- Profilbilder der beteiligten Hunde direkt an gemeinsamen Spaziergängen
+- Bearbeiten bestehender Spaziergänge
+- Löschen bestehender Spaziergänge
+- Schnellaktionen für Training und Spaziergänge auf dem Dashboard
+
+### Verbessert
+- PawLog bildet neben Ernährung, Gewicht und Gesundheit jetzt auch Bewegung und Training ab
+- Gemeinsame Spaziergänge müssen nicht mehrfach für jeden Hund eingetragen werden
+- Trainings- und Gassidaten werden automatisch dem jeweiligen Hundesteckbrief zugeordnet
+- Bestehende PawLog-Daten werden automatisch um Trainings- und Gassidaten erweitert
+- Trainings- und Gassidaten werden im normalen JSON-Backup mitgesichert
+- Beim Löschen eines Hundes werden zugehörige Trainingseinträge entfernt
+- Bei gemeinsamen Spaziergängen wird ein gelöschter Hund automatisch aus dem Spaziergang entfernt
+- Spaziergänge bleiben erhalten, solange noch mindestens ein Hund zugeordnet ist
+
 ## [0.3.0]
 
 ### Hinzugefügt
