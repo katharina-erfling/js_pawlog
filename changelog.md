@@ -2,6 +2,67 @@
 
 Alle wichtigen Änderungen an PawLog werden in dieser Datei dokumentiert.
 
+
+## [0.3.0]
+
+### Hinzugefügt
+- Neue zentrale Futter- und Zutatenverwaltung
+- Verwaltung konkreter Futterprodukte mit:
+  - Name
+  - Hersteller oder Marke
+  - Futterart
+  - Kategorie
+  - Standard-Einheit
+  - kcal pro 100 g
+  - Notizen
+  - optionalem Produktfoto
+- Unterscheidung zwischen BARF, Fertigfutter, Zusätzen, Snacks und sonstigem Futter
+- Suche und Filterung in der Futterverwaltung
+- Individuelle Portionsgrößen pro Hund für gespeicherte Gerichte
+- Automatische Skalierung eines Gerichts auf die für den ausgewählten Hund hinterlegte Portionsgröße
+- Anzeige der Gesamtmenge eines Gerichts
+- Kalorienanzeige für Gerichte, sofern entsprechende Futterdaten hinterlegt sind
+- Bearbeitung bestehender Futterlog-Einträge
+- Funktion „Letzte Mahlzeit wiederholen“
+- Funktion „Wie gestern“
+- Wochenansicht für das Ernährungstagebuch
+- Tagesübersicht mit Anzahl der Fütterungen
+- Unterscheidung zwischen automatischer Grundfütterung und zusätzlichen Einträgen
+- Tagesbezogene Kalorienauswertung
+- Wochenübersicht mit Fütterungsanzahl und Kalorien pro Tag
+- Neue Gesundheitsakte
+- Verwaltung von Tierarztbesuchen
+- Verwaltung von Impfungen
+- Verwaltung von Medikamenten
+- Verwaltung von Parasitenprophylaxe
+- Verwaltung von Dokumenten und Befunden
+- Bearbeitung bestehender Gesundheitseinträge
+- Lokale Speicherung von Bildern und PDFs innerhalb von Dokumenteinträgen
+- Öffnen hinterlegter Dokumente direkt aus PawLog
+- Gesundheitsdaten werden in Backup und Import aufgenommen
+
+### Verbessert
+- Bestehende Zutaten werden automatisch in die neue Futterverwaltung übernommen
+- Bestehende Gerichte werden automatisch auf die neue Datenstruktur migriert
+- Bestehende Futterpläne werden automatisch auf die neue Futterstruktur migriert
+- Bestehende Futtertagebuch-Einträge bleiben erhalten
+- Bestehende Hundeprofile, Profilbilder und Gewichtsdaten bleiben erhalten
+- Futterlog stärker als echtes Ernährungstagebuch aufgebaut
+- Schnellaktionen für wiederkehrende Fütterungen ergänzt
+- Gerichte können jetzt einfacher für mehrere Hunde mit unterschiedlichen Portionsgrößen verwendet werden
+- Futterpläne bleiben weiterhin automatisch im Ernährungstagebuch sichtbar
+- Kalorien werden nur ausgewertet, wenn entsprechende Nährwertdaten vorhanden sind
+- Gesundheitsbereiche als eigene übersichtliche Tabs aufgebaut
+- Responsive Darstellung der neuen Wochen-, Futter- und Gesundheitsansichten
+- Bestehende lokale Speicherung und JSON-Backups bleiben kompatibel
+
+### Technisch
+- Datenmodell für Futter, Gerichte und Fütterungseinträge erweitert
+- Datenmodell für Gesundheitsdaten ergänzt
+- Automatische Migration älterer PawLog-Daten auf die neue Struktur
+- Bestehender lokaler PawLog-Speicher wird weiterverwendet
+- Syntax und Datenmigration der neuen Version geprüft
+
 ## [0.1.6]
 
 ### Verbessert
