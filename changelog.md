@@ -3,6 +3,47 @@
 Alle wichtigen Änderungen an PawLog werden in dieser Datei dokumentiert.
 
 
+## [0.5.0]
+
+### Hinzugefügt
+- Neuer Bereich „Auswertungen“
+- Eigener Menüpunkt für Statistiken und Diagramme
+- Auswahl des Auswertungszeitraums:
+  - 30 Tage
+  - 90 Tage
+  - 1 Jahr
+  - Gesamtzeitraum
+- Auswertungen werden individuell für den ausgewählten Hund erstellt
+- Gewichtsdiagramm für den gewählten Zeitraum
+- Zielgewicht wird im Gewichtsdiagramm berücksichtigt
+- Ausgangsgewicht wird in der Auswertung berücksichtigt
+- Diagramm zur gelaufenen Gassistrecke
+- Wochenweise Darstellung der Gassistrecke bei kurzen Zeiträumen
+- Monatsweise Darstellung der Gassistrecke bei längeren Zeiträumen
+- Diagramm zur Trainingszeit im Verlauf
+- Diagramm zur Trainingszeit nach Trainingsart bzw. Hundesport
+- Kalorienauswertung für das Ernährungstagebuch
+- Diagramm der dokumentierten Kalorien im Zeitverlauf
+- Durchschnittliche dokumentierte Kalorien pro Tag
+- Kennzahl zur Anzahl der Trainingseinheiten
+- Kennzahl zur gesamten Trainingszeit
+- Kennzahl zur Anzahl der Spaziergänge
+- Kennzahl zur gesamten Gassizeit
+- Kennzahl zur zurückgelegten Gassistrecke
+- Durchschnittliche Strecke pro Spaziergang
+- Vergleich mit dem vorherigen Zeitraum
+- Prozentuale Veränderungsanzeige gegenüber dem vorherigen Zeitraum
+
+### Verbessert
+- Gewicht, Ernährung, Training und Gassi können jetzt gemeinsam ausgewertet werden
+- Kurze und lange Zeiträume verwenden automatisch eine passende Diagrammaggregation
+- Diagramme passen sich responsiv an Desktop und mobile Geräte an
+- Fehlende Daten werden mit verständlichen Hinweisen dargestellt
+- Kalorienauswertungen berücksichtigen ausschließlich Futter mit hinterlegten kcal-Werten
+- Bestehende PawLog-Daten werden automatisch um die neuen Auswertungseinstellungen ergänzt
+- Gewichts-Auswertungen verwenden weiterhin die eindeutige Zuordnung zum jeweiligen Hund
+- Bestehende lokale Speicherung und Backup-Struktur bleiben kompatibel
+
 ## [0.4.0]
 
 ### Hinzugefügt
